@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
 export const Svg = styled.svg`
-  position: absolute;
+  position: relative;
   bottom:-1px;
 `

@@ -20,7 +20,7 @@ function InitialSection() {
       {menuIsOpen && <HiddenMenu closeMenu={openOrCloseMenu} />}
 
       <h1>Olá, eu sou <span>Adryane Fernandes</span></h1>
-      <h3>Desenvolvedora Web full-stack</h3>
+      <h2>Desenvolvedora Web full-stack</h2>
       <button>
         Veja meu trabalho <AiOutlineArrowDown />
       </button>

@@ -1,6 +1,7 @@
-import { Container, Content } from './styles'
+import Link from '../../components/Link'
+
+import { Container, Content, Option } from './styles'
 import { AiOutlineClose } from 'react-icons/ai'
-import MenuOption from '../../components/menuOption'
 
 function HiddenMenu({ closeMenu }) {
   return (
@@ -12,21 +13,21 @@ function HiddenMenu({ closeMenu }) {
       <Content>
         <h1>Menu</h1>
 
-        <MenuOption>
-          Sobre mim
-        </MenuOption>
-        <MenuOption>
-          Conhecimentos
-        </MenuOption>
-        <MenuOption>
-          Educação
-        </MenuOption>
-        <MenuOption>
-          Projetos
-        </MenuOption>
-        <MenuOption>
-          Contato
-        </MenuOption>
+        <Option>
+          <Link href=''>Sobre mim</Link>
+        </Option>
+        <Option>
+          <Link href=''>Conhecimentos</Link>
+        </Option>
+        <Option>
+          <Link href=''>Educação</Link>
+        </Option>
+        <Option>
+          <Link href=''>Projetos</Link>
+        </Option>
+        <Option>
+          <Link href=''>Contato</Link>
+        </Option>
       </Content>
     </Container>
   )

@@ -3,7 +3,8 @@ import styled from 'styled-components'
 export const Container = styled.nav`
   background: #252934;
   position: absolute;
-  height: 100vh;
+  top: 0;
+  height: 80vh;
   width: 100%;
   color: #efefef;
 
@@ -36,4 +37,12 @@ export const Content = styled.div`
     text-align: center;
     color: #070707;
   }
+`
+
+export const Option = styled.div`
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: left;
+  border-bottom: 1px solid #b8b8b8;
+  width: 100%;
 `
