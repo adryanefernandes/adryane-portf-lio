@@ -4,6 +4,11 @@ export const Container = styled.section `
   min-height: 100vh;
 
   background: #efefef; 
+
+  svg {
+    position: relative;
+    bottom: -1px;
+  }
 `
 export const Content = styled.div `
   padding: 0 3rem;

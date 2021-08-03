@@ -27,6 +27,7 @@ function InitialSection() {
     </Content>
     <SvgWave color='#efefef' />
 
+
   </Container>
 }
 

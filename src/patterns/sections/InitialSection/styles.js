@@ -4,13 +4,18 @@ export const Container = styled.section`
   min-height: 100vh;
   background: #252934;
 
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column; */
+
+  svg {
+    position: absolute;
+    bottom: -1px;
+  }
 `
 export const Content = styled.div`
-  height: 90vh;
+  height: 82vh;
 
   display: flex;
   flex-direction: column;
