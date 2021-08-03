@@ -3,13 +3,9 @@ import styled from 'styled-components'
 export const Container = styled.section`
   min-height: 100vh;
   background: #252934;
+  padding-top: 1.5rem;
 
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column; */
-
-  svg {
+  #svgWave {
     position: absolute;
     bottom: -1px;
   }

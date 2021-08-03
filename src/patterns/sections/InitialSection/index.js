@@ -25,7 +25,7 @@ function InitialSection() {
         Veja meu trabalho <AiOutlineArrowDown />
       </button>
     </Content>
-    <SvgWave color='#efefef' />
+    <SvgWave color='#efefef' id='svgWave'/>
 
 
   </Container>
