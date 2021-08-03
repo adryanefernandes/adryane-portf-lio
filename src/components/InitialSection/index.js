@@ -1,11 +1,23 @@
-import { Container, Content } from './styles'
+import { useState } from 'react'
+
+import HiddenMenu from '../HiddenMenu'
 import Header from '../Header'
+
+import { Container, Content } from './styles'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 
 function InitialSection() {
+  const [menuIsOpen, setMenuIsOpen] = useState(false)
+
+  const openOrCloseMenu = () => {
+    setMenuIsOpen(!menuIsOpen)
+  }
+
   return <Container>
-    <Header />
+    <Header openMenu={openOrCloseMenu} />
     <Content>
+      {menuIsOpen && <HiddenMenu closeMenu={openOrCloseMenu} />}
+
       <h1>Olá, eu sou <span>Adryane Fernandes</span></h1>
       <h3>Desenvolvedora Web full-stack</h3>
       <button>Veja meu trabalho <AiOutlineArrowRight /></button>

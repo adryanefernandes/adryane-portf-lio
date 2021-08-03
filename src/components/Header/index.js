@@ -1,12 +1,12 @@
 import { Container } from "./styles"
 import { AiOutlineMenu } from 'react-icons/ai'
 
-function Header() {
+function Header({ openMenu }) {
   return (
     <Container>
       <p>Adryane</p>
-      <button>
-        <AiOutlineMenu color='white' size='2rem'/>
+      <button onClick={openMenu}>
+        <AiOutlineMenu color='white' size='2rem' />
       </button>
     </Container>
   )
