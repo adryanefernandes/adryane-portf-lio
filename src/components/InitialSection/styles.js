@@ -47,5 +47,14 @@ export const Content = styled.div`
     font-size: 1.2rem;
     border: 2px solid #efefef;
     padding: .5rem 1rem;
+
+    display: flex;
+    align-items: center;
+
+    &:active{
+      background: #34d1bf;
+      color: #070707;
+      border: 2px solid #34d1bf;
+    }
   }
 `
